@@ -24,7 +24,7 @@ This repository is the base of the case study for all potential DevSecOps engine
 
 ## Scoring
 
-The verifier of this challenge will unzip your solution and run "helmfile apply ." and then trying to access casestudy.local.dialectic.com in a browser. Make sure to leave instructions if the kind/minikube/k3s setup needs special configs to expose the ports 80 / 443.
+To verify this challenge, we will manually unzip your solution and run `helmfile apply .` in the root of the project and then trying to access casestudy.local.dialectic.com in a browser. Make sure to leave instructions if the kind/minikube/k3s setup needs special configs to expose the ports 80 / 443.
 
 - `app/` contains working code: 10 Points
 - `helmchart/` contains working helmchart: 10 Points
