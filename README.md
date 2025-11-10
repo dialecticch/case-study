@@ -14,7 +14,7 @@ This repository is the base of the case study for all potential DevSecOps engine
 
 ## Guidelines / Rules
 
-- Please take note on how long you took to get this case study done (ideally you shouldn't spend more than 4 hours).
+- Please take note on how long you took to get this case study done (to keep it comparable between candidates do not spend more than 4 hours).
 - The ingress should listen to the Domain/Host: casestudy.local.dialectic.com (DNS is statically pointing to 127.0.0.1 so you will need to setup a minikube/k3s/kind environment that listens on localhost).
 - The ingress should listen on HTTP only and forward the requests to the setup service.
 - You might need to publish your Dockerimage on dockerhub.com or leave instructions on how the k8s cluster can pull the image.
