@@ -15,12 +15,12 @@ This repository is the base of the case study for all potential DevSecOps engine
 ## Guidelines / Rules
 
 - Please take note on how long you took to get this case study done (ideally you shouldn't spend more than 4 hours).
-- The ingress should listen to the Domain/Host: casestudy.local.dialectic.io (DNS is statically pointing to 127.0.0.1 so you will need to setup a minikube/k3s/kind environment that listens on localhost).
+- The ingress should listen to the Domain/Host: casestudy.local.dialectic.com (DNS is statically pointing to 127.0.0.1 so you will need to setup a minikube/k3s/kind environment that listens on localhost).
 - The ingress should listen on HTTP only and forward the requests to the setup service.
 - You might need to publish your Dockerimage on dockerhub.com or leave instructions on how the k8s cluster can pull the image.
 - Your custom helmchart for the "Hello Dialectic!" applicatioan can be referenced using relative paths (e.g. `chart: ../helmchart/mychart`).
 - Please transparently declare the use of ChatGPT or other AI helpers as comments in the files if you use them.
-- If you add other helmcharts with ingresses you can use *.local.dialectic.io (e.g. grafana.local.dialectic.io)
+- If you add other helmcharts with ingresses you can use *.local.dialectic.com (e.g. grafana.local.dialectic.com)
 
 ## Scoring
 
